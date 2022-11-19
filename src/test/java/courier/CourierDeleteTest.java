@@ -10,6 +10,7 @@ import models.courier.Courier;
 import models.courier.Credentials;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.apache.http.HttpStatus.*;
@@ -46,6 +47,7 @@ public class CourierDeleteTest {
     }
 
     @Test
+    @Ignore
     @Tag("Negative")
     @DisplayName("Request to delete a courier with null id returns an error")
     @Description("Проверяет, что если отправить запрос на удаление курьера c null id, " +

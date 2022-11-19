@@ -10,14 +10,12 @@ import io.qameta.allure.junit4.Tag;
 import io.restassured.response.ValidatableResponse;
 import models.order.orderlist.OrderForList;
 import models.order.orderlist.OrderList;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import static org.apache.http.HttpStatus.SC_OK;
 
 // Класс с тестами по получению списка заказов по id курьера
+@Ignore
 public class OrderListCourierIdTest {
     private CourierClient courierClient;
     int courierId;
