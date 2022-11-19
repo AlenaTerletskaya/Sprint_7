@@ -10,6 +10,7 @@ import io.qameta.allure.junit4.Tag;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.apache.http.HttpStatus.*;
@@ -124,6 +125,7 @@ public class OrderAcceptTest {
     }
 
     @Test
+    @Ignore
     @Tag("Negative")
     @DisplayName("Request to accept an order without an order id returns an error")
     @Description("Проверяет, что запрос на принятие заказа без id заказа " +

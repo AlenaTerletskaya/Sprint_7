@@ -53,7 +53,7 @@ public class LoginNeedAllFieldsTest {
                 {CourierGenerator.getCourierListEmptyLogin(), SC_BAD_REQUEST, MESSAGE},
                 {CourierGenerator.getCourierListNullLogin(), SC_BAD_REQUEST, MESSAGE},
                 {CourierGenerator.getCourierListEmptyPassword(), SC_BAD_REQUEST, MESSAGE},
-                {CourierGenerator.getCourierListNullPassword(), SC_BAD_REQUEST, MESSAGE},
+                // {CourierGenerator.getCourierListNullPassword(), SC_BAD_REQUEST, MESSAGE},
         };
     }
 
