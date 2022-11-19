@@ -15,7 +15,6 @@ import org.junit.*;
 import static org.apache.http.HttpStatus.SC_OK;
 
 // Класс с тестами по получению списка заказов по id курьера
-@Ignore
 public class OrderListCourierIdTest {
     private CourierClient courierClient;
     int courierId;
